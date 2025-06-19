@@ -1,5 +1,6 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
+from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
+
 
 TOKEN = "7430127739:AAGja3SxBUvvd2Shd913BmH4D5h88nxE0c0"
 CHANNEL_ID = "@qKzesSXCvq5iOTli"  # канал Лолы
